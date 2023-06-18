@@ -116,7 +116,7 @@ p.titletext{
 
 /**********************精選圖片**********************************/
 article.commodity{
-    background-image: url(/img/commodity_img.jpg);
+    background-image: url("../img/commodity_img.jpg");
     
     height: 1220px;
     /* border: 1px solid #000; */
@@ -168,7 +168,7 @@ div.t1{
 div.flower{
     z-index: 1;
     display: block;
-    background-image: url(/img/itemback1.png);
+    background-image: url("../img/itemback1.png");
     background-size: 100%;
     background-repeat: no-repeat;
     content: '';
@@ -290,17 +290,17 @@ article.featured li{
 }
 
 article.featured .item1{
-    background-image: url(/img/item1.png);
+    background-image: url("../img/item1.png");
     flex-grow: 2;
 }
 
 article.featured .item2{
-    background-image: url(/img/item2.png);
+    background-image: url("../img/item2.png");
     flex-grow: 1;
 }
 
 article.featured .item3{
-    background-image: url(/img/item3.png);
+    background-image: url("../img/item3.png");
     flex-grow: 2;
 }
 
