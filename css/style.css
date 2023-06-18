@@ -62,15 +62,16 @@ header ul i.fa-solid img{
 header ul i.fas img{
     width: 15px;
 }
+
+/*************************************大圖區塊*****************************************************/
 h1{
     font-family: 'Noto Serif TC', serif;
+    font-weight: 700;
 }
 
 p{
     font-family: 'Shadows Into Light Two', cursive;
 }
-
-/*************************************大圖區塊*****************************************************/
 
 div.big_bgi{
     background-image: url("../img/bigimg.svg");
@@ -81,7 +82,7 @@ div.big_bgi{
     
 }
 
-div img.scroll{
+img.scroll{
     position: absolute;
     width: 36px;
     height: 152px;
