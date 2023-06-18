@@ -1,0 +1,519 @@
+@import url('reset.css');
+
+html{
+    font-family: 'Noto Serif TC', serif;
+}
+
+body{
+    font-size: 14px;
+    color: #333;
+    
+    
+}
+
+/*************************天***********************************/
+
+header{
+    height: 60px;
+    
+    background-color: #ECDFD3;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.logo{
+    margin: auto 0 auto 15px;
+}
+
+div.logo img{}
+
+header ul{
+    display: flex;
+    padding-right: 30px;
+
+}
+
+header li{
+    
+    margin: auto 0 auto 30px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+header li a.index_a{
+    text-decoration-line: underline;
+}
+
+header li a:hover{
+    text-decoration-line: underline
+}
+
+header i img{}
+
+header ul i.fa-solid img{
+    width: 17px;
+}
+
+header ul i.fas img{
+    width: 15px;
+}
+h1{
+    font-family: 'Noto Serif TC', serif;
+}
+
+p{
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+/*************************************大圖區塊*****************************************************/
+
+div.big_bgi{
+    background-image: url(/img/bigimg.svg);
+    /*   */
+    width: 100%;
+    height: 549px;
+    overflow: hidden;
+    
+}
+
+div img.scroll{
+    position: absolute;
+    width: 36px;
+    height: 152px;
+    left: 23px;
+    top: 386px;
+}
+
+h1.title pre{
+    font-size: 40px;
+    letter-spacing: 7px;
+    line-height: 1.6;
+    color: #5C3131;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* margin:103px 0 0 314px ; */
+    width: 604px;
+    height: 128px;
+    /* border: 1px solid #000; */
+    
+
+}
+
+p.titletext{
+    font-size: 24px;
+    color: #5C3131;
+    /* border: 1px solid #000; */
+    width: 150px;
+    height: 35px;
+    margin: 10px 0 0 820px;
+}
+
+/**********************精選圖片**********************************/
+article.commodity{
+    background-image: url(/img/commodity_img.jpg);
+    
+    height: 1220px;
+    /* border: 1px solid #000; */
+    
+    
+}
+article.commodity button{
+    background-color: #8F6645;
+    font-size: 16px;
+    font-family: 'Noto Serif TC', serif;
+    border: none;
+    width: 87px;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 300;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+article.commodity button a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: .1em;
+}
+
+article.commodity h2{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 70px auto;
+    text-align: center;
+    /* border: 1px solid #000; */
+    width: 446px;
+    height: 36px;
+
+   
+}
+
+
+div.t1{
+    background-color: #DABEA7;
+    width: 445px;
+    height: 428px;
+    margin-left: 195PX;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+div.flower{
+    z-index: 1;
+    display: block;
+    background-image: url(/img/itemback1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+    
+    width: 1220px;
+    height: 895px;
+    left: -3px;
+    top: 939px; 
+    
+}
+
+
+
+div.t1 h3{
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 40px;
+    margin-left: 40px;
+    line-height: 1.6;
+}
+
+div.t1 p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1.6;
+    font-family: 'Noto Serif TC', serif;
+
+}
+
+img.commodity_item1{
+    width: 445px;
+    height: 428px;
+    position: absolute;
+    left: 640px;
+    top: 785px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    
+
+}
+
+
+
+div.t2{
+    margin-top: 100px;
+    background-color: #DABEA7;
+    width: 445px;
+    height: 428px;
+    margin-left: 640px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+div.t2 h3{
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 40px;
+    margin-left: 40px;
+    line-height: 1.6;
+}
+
+div.t2 p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1.6;
+    font-family: 'Noto Serif TC', serif;
+}
+
+div.t2 button.btn1{
+    margin-left: 40px;
+}
+
+img.commodity_item2{
+    display: flex;
+    position: absolute;
+    
+    left: 196px;
+    top: 1314px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*********************精選圖片****************************/
+
+article.featured{
+    background-color: #DABEA7;
+    height: 550px;
+    overflow: hidden;
+}
+
+article.featured h2{
+
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 70px auto;
+    text-align: center;
+    /* border: 1px solid #000; */
+    width: 547px;
+    height: 36px;
+}
+
+article.featured ul{
+    width: 1263px;
+    height: 300px;
+    margin: 0 auto;
+    /* outline: 5px solid white; */
+
+    display: flex;
+}
+
+article.featured li{
+    background-size: cover;
+    background-position: center center;
+
+    transition: .5s;
+    filter: blur(2px);
+}
+
+article.featured .item1{
+    background-image: url(/img/item1.png);
+    flex-grow: 2;
+}
+
+article.featured .item2{
+    background-image: url(/img/item2.png);
+    flex-grow: 1;
+}
+
+article.featured .item3{
+    background-image: url(/img/item3.png);
+    flex-grow: 2;
+}
+
+article.featured .item4{
+    background-image: url(/img/item4.png);
+    flex-grow: 1;
+}
+
+article.featured li:hover{
+    flex-grow: 2;
+    filter: blur(0);
+}
+
+/******************特色*****************/
+
+article.bottom{
+    background-image: url(/img/bottom.png);
+    height: 1266px;
+    overflow: hidden;
+}
+
+.bottom h2{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 70px auto;
+    text-align: center;
+    /* border: 1px solid #000; */
+    width: 547px;
+    height: 36px;
+}
+
+div.advantage{
+    
+}
+
+.advantage ul{
+    display: flex;
+    margin-left: 40px;
+    
+    
+}
+
+.advantage li{
+    margin: 0 70px;
+    /* border: 1px solid #000;  */
+}
+
+.advantage img{
+    margin: 0 auto;
+}
+
+.advantage li h4{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: .1em;
+}
+
+.bottom img.line{
+    
+}
+
+.advantage li p{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+div.contact{
+    background-color: #DABEA7;
+    display: flex;
+    width: 890px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.leftlogo{
+    width: 237px;
+    height: 283px;
+    margin-top: 20px;
+    margin-left: 35px;
+    
+}
+
+.leftlogo .logoimg{}
+
+.righttext{}
+
+.righttext p{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.1em;
+    /* border: 1px solid #000; */
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+
+.righttext .googlemap{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+img.divline{
+    height: 311px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+div.bottomflower{
+    position: absolute;
+   
+    left: 965px;
+    top: 3420px;
+    
+}
+
+/********************footer*******************/
+
+footer{
+    background-color: #DABEA7;
+    height: 82px;
+    display: flex;
+    
+   
+}
+
+.footerimg{
+    /* border: 1px solid #000; */
+    margin-left: 70px;
+}
+
+.footer .footerlogo{}
+
+.footertext{
+    /* border: 1px solid #000; */
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.footertext p{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 12px;
+    line-height: 1.8;
+    
+}
+
+.footerul {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.footerul li{
+    /* border: 1px solid #000; */
+    padding: 0 5px;
+}
+
+.footerul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.footerul li a:hover{
+    text-decoration: underline;
+}
+
+.footericon {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 70px;
+}
+
+.footericon i{
+    color: #333;
+    margin-left: 30px;
+}
+
+.footericon .fa-instagram{
+    font-size: 20px;
+}
+
+.footericon .fa-square-facebook{
+    font-size: 20px;
+}
+
+.footericon .fa-line{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
