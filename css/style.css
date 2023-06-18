@@ -73,7 +73,7 @@ p{
 /*************************************大圖區塊*****************************************************/
 
 div.big_bgi{
-    background-image: url(/img/bigimg.svg);
+    background-image: url(./img/bigimg.svg);
     /*   */
     width: 100%;
     height: 549px;
