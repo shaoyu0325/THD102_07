@@ -305,7 +305,7 @@ article.featured .item3{
 }
 
 article.featured .item4{
-    background-image: url(/img/item4.png);
+    background-image: url("../img/item4.png");
     flex-grow: 1;
 }
 
@@ -317,7 +317,7 @@ article.featured li:hover{
 /******************特色*****************/
 
 article.bottom{
-    background-image: url(/img/bottom.png);
+    background-image: url("../img/bottom.png");
     height: 1266px;
     overflow: hidden;
 }
