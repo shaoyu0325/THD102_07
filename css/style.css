@@ -431,16 +431,26 @@ footer{
     background-color: #DABEA7;
     height: 82px;
     display: flex;
-    
-   
 }
+
+
 
 .footerimg{
     /* border: 1px solid #000; */
     margin-left: 70px;
+    display: flex;
+
+    
+    
+}
+.footerimg a{
+    
 }
 
-.footer .footerlogo{}
+.footer .footerimg .footerlogo{
+    height: 78px;
+    padding-top: 3px;
+}
 
 .footertext{
     /* border: 1px solid #000; */
@@ -470,6 +480,9 @@ footer{
     text-decoration: none;
     color: #000;
     font-size: 14px;
+}
+.footerul li .index_a{
+    text-decoration: underline  ;
 }
 
 .footerul li a:hover{

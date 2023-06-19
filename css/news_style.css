@@ -278,7 +278,9 @@ footer.newsfooter{
     margin-left: 70px;
 }
 
-.footer .footerlogo{}
+.footer .footerlogo{
+    padding-top: 3px;
+}
 
 .footertext{
     /* border: 1px solid #000; */
