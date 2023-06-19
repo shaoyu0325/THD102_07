@@ -53,6 +53,14 @@ header li a:hover{
     text-decoration-line: underline
 }
 
+header ul li a.shopping_a:hover{
+    color: #FFF6EE;
+}
+
+header ul li a.user_a:hover{
+    color: #FFF6EE;
+}
+
 header i img{}
 
 header ul i.fa-solid img{

@@ -1,0 +1,234 @@
+@import url("reset.css");
+
+html{
+    font-family: 'Noto Serif TC', serif;
+}
+
+body{
+    font-size: 14px;
+    color: #333;
+}
+
+/***********************天****************************/
+
+/* header ul li a.shopping_a{
+    color: aliceblue;
+} */
+header ul li a.shopping_a:hover{
+    color: #FFF6EE;
+}
+
+header ul li a.user_a:hover{
+    color: #FFF6EE;
+}
+
+
+
+/******************麵包屑*********************/
+div.nav pre a.shopping_a{
+    text-decoration-line: underline;
+}
+
+/*******************大包裝*********************/
+div.shoppingwra{
+    background-color: #DABEA7;
+    height: 720px;
+    overflow: hidden;
+
+}
+
+img.newsbgi1{
+    position: absolute;
+    width: 389px;
+    height: 390px;
+    left: -38px;
+    top: 500px;
+    opacity: 1;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+img.newsbgi3{
+    position: absolute;
+    width: 222.92000000000002px;
+    height: 203px;
+    left: 1041px;
+    top: 115px;
+    opacity: .5;
+    transform: rotate(-90deg);
+}
+
+.shoppingwra h2{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 70px auto;
+    text-align: center;
+    /* border: 1px solid #000; */
+    width: 520px;
+    height: 36px;
+    
+}
+
+/*************內容****************/
+
+div.inwrapper{
+    display: flex;
+    justify-content: center;
+}
+
+/**********左ul  li**********/
+
+.inwrapper ul.ul{
+    margin-right: 70px;
+}
+
+.inwrapper li.li{
+    display: flex;
+    width: 617px;
+    height: 91px;
+    background-color: #FFF6EE;
+    /* border: 1px solid #000; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+
+.inwrapper img{
+   
+    /* float: left; */
+    width: 162px;
+    height: 91px;
+
+}
+
+.inwrapper h3{
+    font-size: 24px;
+    margin-left: 25px;
+    line-height: 3.8;
+    font-weight: 700;
+}
+
+.inwrapper .fa-minus{
+    margin-left: 70px;
+    line-height: 6.9;
+}
+
+.inwrapper .fa-plus{
+    margin-left: 15px;
+    line-height: 6.9;
+}
+
+.inwrapper p.number{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 15px;
+    padding-top: 38px;
+}
+
+.inwrapper p.NT{
+    color: #5C3131;
+    font-size: 16px;
+    padding-top: 39px;
+    margin-left: 55px;
+}
+
+.inwrapper .fa-trash-can{
+    margin-left: 50px;
+    line-height: 6.9;
+}
+
+.inwrapper .solid{
+    margin-left: 47px;
+}
+/*******************右側************************/
+aside{
+    width: 350px;
+    height: 455px;
+    background-color: #FFF6EE;
+}
+
+aside h4{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.asideul{
+    margin-top: 60px;
+}
+
+.asideul li{
+    margin-bottom: 30px;
+}
+
+.leftspan{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.rightspan1{
+    font-size: 20px;
+    margin-left: 123px;
+}
+
+.rightspan2{
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.rightspan3{
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+p.line{
+    margin-left: 45px;
+    width: 250px;
+    border: 1px solid #666 ;
+}
+aside h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+aside h6{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+input.buying{
+    border-radius: 5px;
+
+	width: 125px;
+	height: 35px;
+	font-size: 18px;
+	background-color: #8F6645;
+	color: white;
+	border: 0;
+    margin-top: 60px;
+    margin-left: 115px;
+   
+}
+
+aside .shoppingbuybgi{
+    background-image: url("../img/shoppingbuy.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 405px;
+    left: 800px;
+    top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
