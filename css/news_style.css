@@ -256,10 +256,12 @@ img.newsbgi1{
 
 img.newsbgi2{
     position: absolute;
-    width: 305.42px;
-    height: 410.77px;
-    left: 957px;
-    top: 1767px;
+    width: 255.92000000000002px;
+    height: 224px;
+    left: 1000px;
+    top: 1861px;
+
+    opacity: .5;
 }
 
 /***************footer******************/
@@ -306,6 +308,9 @@ footer.newsfooter{
     text-decoration: none;
     color: #000;
     font-size: 14px;
+}
+.footerul li a.news_a{
+    text-decoration: underline;
 }
 
 .footerul li a:hover{
