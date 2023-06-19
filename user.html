@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="css/user_style.css">
         <link rel="stylesheet" href="css/shopping_style.css">
         <link rel="stylesheet" href="css/item_style.css">
         <link rel="stylesheet" href="css/style.css">
@@ -17,8 +18,8 @@
     </head>
     <body>
 
-         <!----------------------天--------------------------->
-         <header>
+        <!-----------------天---------------------->
+        <header>
             <div class="logo">
                 <a href="index.html">
                     <img src="./img/logo.svg" alt="">
@@ -34,86 +35,50 @@
                 <li><a href="user.html" class="user_a"><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </header>
-        
-        <!-----------------------麵包屑---------------------->
-        <div class="nav">
-            <pre><a href="index.html">首頁</a>    /    <a href="shoppingcart.html" class="shopping_a">購物車</a></pre>
+         <!-----------------------麵包屑---------------------->
+         <div class="nav">
+            <pre><a href="index.html">首頁</a>    /    <a href="user.html" class="user_a">會員專區</a></pre>
         </div>
+
         <!------------------大包裝------------------------>
-        <div class="shoppingwra">
-            <img src="./img/newsbgi1.svg" alt="" class="newsbgi1">
-            <img src="./img/newsbgi2.png" alt="" class="newsbgi3">
-            <h2>SHOPPING CART / 購物車</h2>
+        <div class="userwrapper">
+            <div class="userleft"></div>
+            <div class="userright"></div>
 
-            <div class="inwrapper">
+            
+            <h2>會員專區</h2>
+            
+            <div class="sing">
+                <div class="inleft"></div>
+                <div class="inright"></div>
 
-                <ul class="ul">
-                    <li class="li">
-                        <img src="./img/shopping1.svg" alt="" class="shopping1">
-                        <h3>永生花3</h3>
 
-                        <i class="fa-solid fa-minus"></i>
-                        <p class="number">1</p>
-                        <i class="fa-solid fa-plus"></i>
-                        <p class="NT">NT$1000</p>
+                <h3>會員登入</h3>
 
-                        <i class="fa-solid fa-trash-can"></i>
-
+                <ul>
+                    
+                    <li>帳號
+                      <input class="id" type="username" placeholder="請輸入帳號"/>
                     </li>
 
-                    <li class="li">
-                        <img src="./img/shopping2.svg" alt="" class="shopping1">
-                        <h3>永生花罐1</h3>
-
-                        <i class="fa-solid fa-minus solid"></i>
-                        <p class="number">1</p>
-                        <i class="fa-solid fa-plus"></i>
-                        <p class="NT">NT$1000</p>
-
-                        <i class="fa-solid fa-trash-can"></i>
+                    <li>密碼
+                        <input class="pass" type="password" placeholder="請輸入密碼"/>
                     </li>
+                    <li>
+                        <input class="send" type="submit" value="登入">
+                      </li>
+                  </ul>
 
-                    <li class="li">
-                        <img src="./img/shopping3.svg" alt="" class="shopping1">
-                        <h3>永生花束3</h3>
-
-                        <i class="fa-solid fa-minus solid"></i>
-                        <p class="number">1</p>
-                        <i class="fa-solid fa-plus"></i>
-                        <p class="NT">NT$1000</p>
-
-                        <i class="fa-solid fa-trash-can"></i>
-                    </li>
-                </ul>
-
-                <aside>
-                    <div class="shoppingbuybgi"></div>
-                    <h4>結帳</h4>
-                    <ul class="asideul">
-                        <li>
-                            <span class="leftspan">商品數量</span><span class="rightspan1">4件</span>
-                        </li>
-
-                        <li>
-                            <span class="leftspan">金額</span><span class="rightspan2">$3000</span>
-                        </li>
-
-                        <li>
-                            <span class="leftspan">運費</span><span class="rightspan3">$100</span>
-                        </li>
-                    </ul>
-                    <p class="line"></p>
-                    <h5>共計金額</h5>
-                    <h6>$3100</h6>
-                    <input class="buying" type="submit" value="結帳">
-                </aside>
-
-
+                  <a href="#" class="singin">加入會員</a>
+                  <p>OR</p>
+                  <div class="other">
+                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                    <a href="#"><i class="fa-brands fa-apple"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
             </div>
 
         </div>
-
-        <!----------------footer--------------------->
         <div class="worring">本網站為緯育TibaMe【第85期】前端工程
             師專業技術養成班學員作品,僅供學習、展
             示之用途。</div>
@@ -124,6 +89,8 @@
                 <a href="index.html" class="footerlogo_a"><img src="./img/footerlogo.svg" alt="" class="footerlogo"></a>
     
             </div>
+
+             <!----------------footer--------------------->
     
             <div class="footertext">
     

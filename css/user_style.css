@@ -1,0 +1,223 @@
+@import url("reset.css");
+
+html{
+    font-family: 'Noto Serif TC', serif;
+}
+
+body{
+    font-size: 14px;
+    color: #333;
+}
+/******************麵包屑*********************/
+div.nav pre a.user_a{
+    text-decoration-line: underline;
+}
+/***************外層*************/
+
+.userleft{
+    background-image: url("../img/wrapperbgileft.svg");
+    background-repeat: no-repeat;
+    
+    position: absolute;
+
+    width: 233px;
+    height: 643px;
+    left: 0px;
+    top: 91px;
+
+    opacity: 0.5;
+}
+.userright{
+    background-image: url("../img/wrapperbgiright.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 233px;
+    height: 643px;
+    left: 1065px;
+    top: 92px;
+
+    opacity: 0.5;
+}
+
+div.userwrapper{
+    background-color: #DABEA7;
+    height: 614px;
+    overflow: hidden;
+}
+
+.userwrapper h2{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px auto;
+    text-align: center;
+    /* border: 1px solid #000; */
+    width: 520px;
+    height: 36px;
+}
+
+/**********登入層*********/
+
+.inleft{
+    background-image: url("../img/inleft.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 70.5px;
+    height: 205px;
+    left: 372px;
+    top: 485px;
+    transform: rotate(360deg);
+}
+
+.inright{
+   background-image: url("../img/inright.svg");
+   background-repeat: no-repeat;
+   position: absolute;
+    width: 108px;
+    height: 202.38px;
+    left: 777.38px;
+    top: 222px;
+
+    transform: rotate(360deg);
+
+    
+}  
+
+div.sing{
+    background-color: #FFF6EE;
+    width: 526px;
+    height: 468px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+}
+
+.sing h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.sing ul{
+}
+
+.sing li{
+    margin-top: 70px;
+    margin-left: 120px;
+    
+}
+
+.sing .id{
+    background-color: #FFF6EE;
+	width: 200px;
+	height: 25px;
+    border:none;
+	border-bottom   : 1px solid #ccc;
+	padding-left: 5px;
+	outline: 0;
+    margin-left: 10px;
+}
+
+.sing .pass{
+    background-color: #FFF6EE;
+	width: 200px;
+	height: 25px;
+    border:none;
+	border-bottom   : 1px solid #ccc;
+	padding-left: 5px;
+	outline: 0;
+    margin-left: 10px;
+}
+
+.sing .id:focus{
+    background-color: #DABEA7;
+    border-radius: 5px;
+}
+
+.sing .pass:focus{
+    background-color: #DABEA7;
+    border-radius: 5px;
+}
+
+.sing .send{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-weight: 400;
+    border-radius: 5px;
+
+	width: 100px;
+	height: 30px;
+	font-size: 18px;
+	background-color: #8F6645;
+	color: white;
+	border: 0;
+	display: block;
+	margin-left: 90px;
+}
+
+
+.sing a.singin{
+    text-decoration: none;
+    color: #999;
+    /* border: 1px solid #000; */
+    margin-left: 237px;
+    line-height: 2.5;
+}
+
+.sing p{
+    text-align: center;
+}
+
+.other{
+    margin-left: 115px;
+    margin-top: 20px;
+}
+
+.other i{
+    color: #666;
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.other .fa-apple{
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

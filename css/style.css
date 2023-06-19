@@ -299,8 +299,8 @@ article.featured li{
 }
 
 article.featured .item1{
-    background-image: url("../img/item1.png");
-    flex-grow: 2;
+    background-image: url("../img/image1.svg");
+    flex-grow: 1;
 }
 
 article.featured .item2{
@@ -310,7 +310,7 @@ article.featured .item2{
 
 article.featured .item3{
     background-image: url("../img/item3.png");
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 article.featured .item4{
@@ -434,7 +434,10 @@ div.bottomflower{
 }
 
 /********************footer*******************/
-
+div.worring{
+    font-size: 12px;
+    background-color: #DABEA7;
+}
 footer{
     background-color: #DABEA7;
     height: 82px;
