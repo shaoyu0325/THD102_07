@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>水平手風琴</title>
+        <link rel="stylesheet" href="./css/reset.css">
+
+        <style>
+
+           
+
+            h1{
+                
+                margin-top: 100px;
+                font-size: 5em;
+                font-family: 'Squada One', cursive;
+                
+                text-transform: uppercase;
+                padding-bottom: 20px;
+                padding-left: 17%;                
+                
+            }
+
+            h2{
+                font-size: 1.5em;
+                font-family: 'Jaldi', sans-serif;
+                letter-spacing: 10px;
+                color: #999;
+                margin-bottom: 50px;
+                padding-left: 36%;
+            }
+
+            ul{
+                width: 1200px;
+                height: 500px;
+                margin: 0 auto 100px;
+                outline: 5px solid white;
+
+                display: flex;
+            }
+
+            li{
+                background-size: cover;
+                background-position: center center;
+                transition: .5s;
+            }
+            p{
+                height: 500px;
+                width: 20px;
+                background-color: tomato;
+            }
+
+            .item1{
+                background-image: url(./imgs/japan1.jpg);
+                flex-grow: 1;
+            }
+
+            .item2{
+                background-image: url(./imgs/japan2.jpg);
+                flex-grow: 1;
+            }
+
+            .item3{
+                background-image: url(imgs/japan3.jpg);
+                flex-grow: 1;
+            }
+            .item4{
+                background-image: url(./imgs/photo1.jpg);
+                flex-grow: 1;
+            }
+            .item5{
+                background-image: url(./imgs/photo2.jpg);
+                flex-grow: 1;
+            }
+           
+
+            li.hover{
+                flex-grow: 10;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+        <h1>Horizontal Accordion</h1>
+        <h2>這是一個水平手風琴</h2>
+
+        <ul class="ul">
+            
+            <li class="item1"></li>
+
+            <li class="item2"></li>
+            <li class="item3"></li>
+            <li class="item4"></li>
+            <li class="item5"></li>
+        </ul>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+        <script>
+            $(function(){
+                
+                $("li").click(function(){
+                    $('li').removeClass('hover');
+                    $('li.item5').removeClass('hover');
+            
+                    if ($(this).next().is(':visible')) {
+                        $(this).addClass('hover');
+                      
+                        
+                    }
+                    if (!$(this).next().is(':visible')) {
+                        $(this).addClass('hover');
+                    }
+                    
+                });
+                $('.item1').first().click();
+            })
+
+        </script>
+        
+
+        
+    </body>
+</html>

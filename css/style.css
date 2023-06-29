@@ -187,6 +187,7 @@ div.flower{
     height: 895px;
     left: -3px;
     top: 939px; 
+    pointer-events: none    ;
     
 }
 
