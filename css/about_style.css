@@ -127,6 +127,9 @@ div.wra h3{
     margin-left: 30px;
     margin-top: 30px;
 }
+.wra p.textrwd{
+    display: none;
+}
 .topdiv1{
     
     display: flex;
@@ -188,6 +191,8 @@ div.top3{
     height: 274px;
     float: left;
     margin-left: -30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
     /* left: 49.1%;
     top: 820px; */
 }
@@ -277,6 +282,7 @@ div.bottomwra div.form{
 div.form h4{
     font-size: 24px;
     margin: 15px auto;
+    font-weight: 500;
     /* border: 1px solid #000; */
     width: 259px;
     
@@ -503,7 +509,150 @@ footer{
 
 .footericon .fa-line{}
 
+@media screen and (max-width: 414px){
+    /*******************天*/
+    body{
+        width: 100%;
+    }
+    header{
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    /* 去麵包屑 */
+    div.nav{
+        display: none;
+    }
+    /* 大圖 */
+    div.aboutbig_bgi{
+        height: 271px;
+    }
+    h1.title pre{
+        font-size: 22px;
+        margin-left: 0;
+        margin-top: 90px;
+     
+        height: 95px;
+    }
+    img.scroll{
+        width: 19px;
+        top: 213px;
+    }
+    p.titletext{
+        margin-left: 300px;
+        font-size: 18px;
+    }
+    /* ---------------------上區塊內容--------------------- */
+    .wra .top1bgi{
+        display: none;  
+    }
+    .wra .top2bgi{
+        display: none;
+    }
+    div.wra h3{
+        font-size: 28px;
+        margin: 70px auto;
+        width: 100%;
+    }
+    .topdiv1{
+        
+        flex-direction: column;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    div.top1{
+        width: 349px;
+        margin: 0 auto;
+        box-shadow: none;
+    }
+    .wra h4{
+        font-size: 24px;
+        margin: 40px;
+        text-align: center;
+    }
+    .wra p{
+        display: none;
+    }
+    .wra p.textrwd{
+        display: block;
+        margin: 30px;
+    }
+    .wra img.top2{
+        width: 350px;
+        height: auto;
+        /* position: sticky; */
+        margin: 0 auto 70px auto;
+        box-shadow: none;
+    }
+    .topdiv2{
+        flex-direction: column-reverse;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+        padding-bottom: 70px;
+    }
+    div.top3{
+        width: 350px;
+        margin: 0 auto;
+        box-shadow: none;
+    }
+    .wra img.top4{
+        position: sticky;
+        width: 350px;
+        height: auto;
+        margin: 0 auto;
+        box-shadow: none;
+    }
+    /* ---------------------下面區塊----------------- */
+    div.contactbgiright{
+        display: none;
+    }
+    div.bottomwra h3{
+        font-size: 28px;
+        /* margin: 70px auto; */
+        width: 100%;
+    }
+    div.bottomwra div.form{
+        width: 350px;
+    }
+    img.bottombigimg{
+        display: none;
+    }
+    div.form h4{
+        font-size: 20px;
+        text-align: center;
+    }
+    .bottomwra ul{
+        padding-left: 48px;
+    }
+    .bottomwra textarea{
+        width: 238px;
+    }
+    .bottomwra .send{
+        margin-left: 77px;
+    }
+    .bottomformbgi{
+        display: none;
+    }
+    .bottomformbgiright{
+        display: none;
+    }
+    div.bottomwra{
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    div.contact{}
 
+    .footerul{
+        display: none;
+    }
+    .footericon{
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    
+
+
+
+}
 
 
 

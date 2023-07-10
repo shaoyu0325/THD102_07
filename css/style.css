@@ -14,6 +14,7 @@ body{
 /*************************天***********************************/
 
 header{
+
     height: 60px;
     
     background-color: #ECDFD3;
@@ -31,6 +32,7 @@ div.logo img{}
 header ul{
     display: flex;
     padding-right: 30px;
+    
 
 }
 
@@ -148,7 +150,8 @@ article.commodity{
     overflow: hidden;
     background-image: url("../img/commodity_img.jpg");
     
-    height: 1342px;
+    height: 100%;
+    padding-bottom: 140px;
     /* border: 1px solid #000; */
     
     
@@ -179,6 +182,9 @@ article.commodity button a{
     height: 35px;
     overflow: hidden;
     
+}
+i.fa-bars{
+    display: none;
 }
 
 article.commodity h2{
@@ -304,7 +310,7 @@ img.commodity_item2{
     height: 428px;
     left: 0;
     top: 100px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /*********************精選圖片****************************/
@@ -373,7 +379,8 @@ article.featured li:hover{
 
 article.bottom{
     background-image: url("../img/bottom.png");
-    height: 1200px;
+    /* height: 1200px; */
+    padding-bottom: 120px;
     overflow: hidden;
 }
 
@@ -423,9 +430,10 @@ div.advantage{
 
 .advantage li p{
     font-family: 'Noto Serif TC', serif;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin-top: 20px;
+    line-height: 1.6;
 
 }
 
@@ -451,7 +459,9 @@ div.contact{
 
 .leftlogo .logoimg{}
 
-.righttext{}
+.righttext .rwdrighttext{
+    display: none;
+}
 
 .righttext p{
     font-family: 'Noto Serif TC', serif;
@@ -470,6 +480,9 @@ div.contact{
     margin-top: 20px;
     border-radius: 5px;
 }
+.righttext .rwdmap{
+    display: none;
+}
 
 img.divline{
     height: 311px;
@@ -483,6 +496,7 @@ div.bottomflower{
     top: 3350px;
     opacity: .5;
 }
+
 
 /********************footer*******************/
 div.worring{
@@ -529,7 +543,7 @@ footer{
 }
 
 .footerul li{
-    /* border: 1px solid #000; */
+    /* border: 1px solid #000;   */
     padding: 0 5px;
 }
 
@@ -569,3 +583,301 @@ footer{
 }
 
 .footericon .fa-line{}
+
+@media screen and (max-width: 414px){
+/*******************天*/
+    body{
+        width: 100vw;
+    }
+
+
+   header{
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 20px;
+   }
+    header ul{
+        /* display: none; */
+        padding-right: 0;
+        margin-right: 10px;
+        padding-left: 10px;
+        
+    }
+    header li{
+        margin:0 auto 0 auto;
+    }
+    /************************大圖 */
+    div.big_bgi{
+        width: 100vw;
+        height: 271px;
+        
+        
+    }
+    .big_bgi .title pre{
+        font-size: 22px;
+        margin-left: 0;
+        margin-top: 90px;
+     
+        height: 95px;
+    }
+    .big_bgi .scroll{
+        width: 19px;
+        top: 213px;
+    }
+
+    .big_bgi .titletext{
+        margin-left: 300px;
+        margin-top: 0;
+        font-size: 18px;
+    }
+
+    /* i.fa-bars{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size: 20px;
+    }
+    header ul{
+        display: block;
+        position: fixed;
+        height: 200px;
+        width: 200px;
+        background-color: #ECDFD3;
+        right: 100px;
+        top: 60px;
+        transition: all .5s;
+    }
+    header li{
+
+    }
+    header a{
+        color: white;
+    }
+    header .fa:hover ~ ul{
+        right: -20px;
+    } */
+
+    /*********精選商品*********/
+
+    .commodity{
+        height: 100%;
+        margin-bottom: -50px;
+        
+    }
+    div.topflowerleft{
+        display: none;
+    }
+    div.topflowerright{
+        display: none;
+    }
+    article.commodity h2{
+        font-size: 28px;
+        margin: 70px auto;
+        width: 100%;
+    }
+    div.commoditywar1{
+        flex-direction: column-reverse;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));   
+    }
+    div.t1{
+        width: 320px;
+        height: 320px;
+        margin: 0 auto;
+        filter: none;
+    }
+    article.commodity button{
+        margin-top: 48px;
+        margin-left: 117px;
+
+    }
+    article.commodity button a{
+        margin-left: -14px;
+    }
+
+    img.commodity_item1{
+        width: 320px;
+        height: 308px;
+        margin: 0 auto;
+        filter: none;
+    }
+    div.t1 h3{
+        font-size: 24px;
+        padding: 0;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 35px;
+    }
+    div.t1 p{
+        font-size: 16px;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    div.commoditywar2{
+        flex-direction: column;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+        margin-top: 130px;
+    }
+    div.t2{
+        width: 320px;
+        height: 320px;
+        margin: 0 auto;
+        filter: none;
+    }
+    
+    div.t2 h3{
+        font-size: 24px;
+        padding: 0;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 35px;
+    }
+    div.t2 p{
+        font-size: 16px;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    div.t2 button.btn1{
+        margin-top: 30px;
+        margin-left: 117px;
+    }
+    img.commodity_item2{
+        position: sticky;
+        width: 320px;
+        height: 308px;
+        margin: 0 auto;
+        filter: none;
+    }
+
+
+
+    /******************精選團片*****************************/
+    article.featured{
+        height: 100%;
+        padding-bottom: 70px;
+    }
+
+    article.featured h2{
+        font-size: 26px;
+        margin: 0;
+        margin-top: 70px;
+        width: 100%;
+        height: 0;
+    }
+    article.featured ul{
+        margin-top: 70px;
+        width: 100%;
+        height: 150px;
+    }
+    article.featured li{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150px;
+        filter: grayscale();
+    }
+
+    /******************特色********************/
+
+    article .bottom {
+        display: none;
+    }
+
+    .bottom h2 {
+        font-size: 28px;
+        margin: 0;
+        margin-top: 70px;
+        width: 100%;
+        height: 0;
+    }
+    .advantage ul{
+        display: block;
+        margin-left: 0;
+        margin-top: 90px;
+        
+    }
+    .advantage li{
+        margin: 0 80px;
+        margin-top: 50px;
+    }
+
+    .advantage li h4{
+        font-size: 24px;
+    }
+    .advantage .line{
+        display: none;
+    }
+
+    div.contact{
+        display: block;
+        width: 320px;
+        height: auto;
+        margin-top: 70px;
+        overflow: hidden;
+    }
+
+    .leftlogo{
+       margin: 0 auto;
+    }
+    
+    img.divline{
+        display: none;
+    }
+    .righttext p{
+        display: none;
+    }
+    .righttext .rwdrighttext{
+        display: block;
+        font-size: 16px;
+        margin: 0;
+        text-align: center;
+        line-height: 1.6;
+        margin-top: 30px;
+    }
+
+    .righttext iframe{
+        display: none;
+    }
+    .righttext .rwdmap{
+        display: block;
+        
+        margin: 30px auto 50px auto;
+    }
+
+    div.bottomflower{
+        display: none;
+    }
+
+
+    /*****************footer***********************/
+    footer{
+        flex-direction: column;
+        padding-top: 10px;
+        
+    }
+    .footerimg{
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .footertext{
+        margin-left: 20px;
+        
+    }
+    
+    .footerul{
+        display: none;
+       
+    }
+    .footericon{
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+}

@@ -206,6 +206,12 @@ div.itemwra h2.itemtitle3{
     width: 764px;
     height: 36px;
 }
+div.itemwra h2.itemtitle2rwd{
+    display: none;
+}
+div.itemwra h2.itemtitle3rwd{
+    display: none;
+}
 
 /********************footer**********************/
 
@@ -222,9 +228,109 @@ div.itemwra h2.itemtitle3{
     overflow: hidden;
 }
 
+/* RWD************************************************* */
+@media screen and (max-width: 414px){
+    /*******************天*/
+    body{
+        width: 100%;
+    }
+    /* 去麵包屑 */
+    div.nav{
+        display: none;
+    }
+    /* 大圖 */
+    div.itembig_bgi{
+        height: 271px;
+    }
+    h1.itemtitle pre{
+        font-size: 22px;
+        margin-left: 0;
+        margin-top: 90px;
+     
+        height: 95px;
+    }
+    .itembig_bgi .scroll{
+        width: 19px;
+        top: 213px;
+    }
+    .itembig_bgi .titletext{
+        margin-left: 300px;
+        margin-top: 0;
+        font-size: 18px;
+    }
+    /* 內容************************************************ */
 
+    div.itemwra{
+        height: 100%;
+    }
+    div.itemwra h2{
+        font-size: 28px;
+        margin: 70px auto 0 auto;
+        width: 100%;
+    }
+    .itemwra ul{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    
+    .itemwra li{
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .itemwra li img{
+        width: 300px;
+        height: auto;
+    }
+    .itemwra li h3{
+        font-size: 24px;
+        margin: 30px 0 30px 15px;
+    }
+    .itemwra li p{
+        margin: 30px 0 30px 200px;
+    }
+    .itemwra li .li_line{
+        margin: 0 auto;
+    }
+    .itemwra .shopping_cart{
+        margin-top: 40px;
+        margin-left: -66px;
+    }
+    div.itemwra h2.itemtitle2{
+        display: none;
+    }
+    div.itemwra h2.itemtitle2rwd{
+        display: block;
+        font-size: 28px;
+        text-align: center;
+        line-height: 1.6;
+        /* margin: 70px auto; */
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    div.itemwra h2.itemtitle3{
+        display: none;
+    }
+    div.itemwra h2.itemtitle3rwd{
+        display: block;
+        font-size: 27px;
+        text-align: center;
+        line-height: 1.6;
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .footerul{
+        display: none;
+    }
+    .footericon{
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
 
-
+}
 
 
 

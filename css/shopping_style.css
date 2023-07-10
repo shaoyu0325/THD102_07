@@ -249,6 +249,67 @@ input.buying:active {
     top: 302px;
     pointer-events: none;
 }
+@media screen and (max-width: 414px){
+    /*******************天*/
+    body{
+        width: 100%;
+    }
+    /* 內容**************************************** */
+
+
+    .shoppingwra h2{
+        font-size: 28px;
+        margin: 70px auto;
+        width: 100%;
+    }
+    img.newsbgi3{
+        display: none;
+    }
+    img.newsbgi1{
+        display: none;
+    }
+    div.inwrapper{
+        flex-direction: column;
+    }
+    .inwrapper ul.ul{
+        margin: 0 auto;
+    }
+    .inwrapper li.li{
+        width: 350px;
+        height: auto;
+    }
+    .inwrapper img{
+        display: none;
+    }
+    .inwrapper h3{
+        font-size: 16px;
+        margin-left: px;
+        line-height: 5.9;
+    }
+    .inwrapper .fa-minus {
+        margin-left: 30px;
+    }
+    .inwrapper p.NT{
+        margin-left: 30px;
+    }
+    .inwrapper .fa-trash-can{
+        margin-left: 30px;
+    }
+    .inwrapper .solid{
+        margin-left: 15px;
+    }
+    div.shoppingwra{
+        height: 100%;
+    }
+    /* 結帳 */
+    .aside{
+        margin: 70px auto;
+    }
+    .shoppingbuybgileft{
+        top: 717px;
+    }
+
+}
 
 
 

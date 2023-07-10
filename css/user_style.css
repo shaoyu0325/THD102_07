@@ -210,6 +210,32 @@ div.userwrapper{
     font-size: 22px;
     margin: 0 30px 0 30px;
 }
+@media screen and (max-width: 414px){
+    /*******************天*/
+    body{
+        width: 100%;
+    }
+
+    /* 內容 */
+    .userwrapper h2{
+        width: auto;
+    }
+    .userleft{
+        display: none;
+    }
+    .userright{
+        display: none;
+    }
+    .sing .singwarpper{
+        width: 370px;
+    }
+    .inleft{
+        display: none;
+    }
+    .inright{
+        display: none;
+    }
+}
 
 
 
