@@ -50,7 +50,7 @@ img.newsbgi3{
     position: absolute;
     width: 222.92000000000002px;
     height: 203px;
-    left: 1041px;
+    right: 0;
     top: 115px;
     opacity: .5;
     transform: rotate(-90deg);
@@ -111,11 +111,21 @@ div.inwrapper{
 .inwrapper .fa-minus{
     margin-left: 70px;
     line-height: 6.9;
+    cursor: pointer;
+}
+
+.inwrapper .fa-minus:active {
+    color: #999;
 }
 
 .inwrapper .fa-plus{
     margin-left: 15px;
     line-height: 6.9;
+    cursor: pointer;
+}
+
+.inwrapper .fa-plus:active {
+    color: #999;
 }
 
 .inwrapper p.number{
@@ -135,21 +145,26 @@ div.inwrapper{
 .inwrapper .fa-trash-can{
     margin-left: 50px;
     line-height: 6.9;
+    cursor: pointer;
+}
+.inwrapper .fa-trash-can:active {
+    color: #999;
 }
 
 .inwrapper .solid{
     margin-left: 47px;
 }
 /*******************右側************************/
-aside{
+.aside{
     width: 350px;
     height: 455px;
     background-color: #FFF6EE;
     border-radius: 5px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border: 1px solid #000; */
 }
 
-aside h4{
+.aside h4{
     font-size: 32px;
     font-weight: 700;
     text-align: center;
@@ -189,13 +204,13 @@ p.line{
     width: 250px;
     border: 1px solid #666 ;
 }
-aside h5{
+.aside h5{
     font-size: 20px;
     font-weight: 700;
     margin-left: 50px;
     margin-top: 20px;
 }
-aside h6{
+.aside h6{
     font-size: 32px;
     font-weight: 700;
     margin-top: 20px;
@@ -213,17 +228,26 @@ input.buying{
 	border: 0;
     margin-top: 60px;
     margin-left: 115px;
+    cursor: pointer;
    
 }
 
-aside .shoppingbuybgi{
+input.buying:hover{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+input.buying:active {
+    box-shadow: inset 0 0 10px #302114;
+}
+.shoppingbuybgileft{
     background-image: url("../img/shoppingbuy.svg");
-    position: absolute;
     background-repeat: no-repeat;
-    width: 340px;
-    height: 405px;
-    left: 800px;
-    top: 300px;
+    position: absolute;
+    width: 338px;
+    height: 400px;
+    top: 302px;
+    pointer-events: none;
 }
 
 

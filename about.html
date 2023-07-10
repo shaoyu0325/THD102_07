@@ -25,7 +25,6 @@
                 <li><a href="index.html">首頁</a></li>
                 <li><a href="news.html" class="news_a">最新消息</a></li>
                 <li><a href="item.html">商品列表</a></li>
-                <li><a href="#">客製服務</a></li>
                 <li><a href="about.html" class="about_a">關於我們</a></li>
                 <li><a href="shoppingcart.html" class="shopping_a"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 <li><a href="user.html" class="user_a"><i class="fa-solid fa-user"></i></a></li>
@@ -43,25 +42,29 @@
             <h1 class="title"><pre>「讓每一刻的瞬間
             都能寫成永恆故事」</pre></h1>
             <p class="titletext">Forever Story......</p>
+            
         </div>
     <!---------------------上區塊內容--------------------->
         <div class="wra">
 
             <img src="./img/top1bgi.svg" alt="" class="top1bgi">
             <h3>ABOUT US / 關於我們</h3>
+            <div class="topdiv1">
 
-            <div class="top1">
-                <h4>關於Forever Story</h4>
-                <p>「讓每一刻的瞬間，都能寫成永恆故事」<br>Forever Story希望每位顧客，因為我們的花，<br>而有一段真誠且浪漫的故事。<br>
-                不管是畢業、告白、或者是求婚，都能為此刻寫<br>下永恆的故事。</p>
+                <div class="top1">
+                    <h4>關於Forever Story</h4>
+                    <p>「讓每一刻的瞬間，都能寫成永恆故事」<br>Forever Story希望每位顧客，因為我們的花，<br>而有一段真誠且浪漫的故事。<br>
+                    不管是畢業、告白、或者是求婚，都能為此刻寫<br>下永恆的故事。</p>
+                </div>
+                <img src="./img/top1.svg" alt="" class="top2">
             </div>
-            <img src="./img/top1.svg" alt="" class="top1">
-
-            <img src="./img/top2.svg" alt="" class="top2">
-            <div class="top2">
-                <h4>我有花，您有故事嗎?</h4>
-                <p>若您有故事，請別吝嗇的與我們分享，我們會蒐<br>集並記錄每位顧客的故事，讓每個瞬間成為<br>恆。<br>
-                別擔心!我們會以匿名的方式，記錄在平台上，期<br>待您與我們分享故事。</p>
+            <div class="topdiv2">
+                <img src="./img/top2.svg" alt="" class="top4">
+                <div class="top3">
+                    <h4>我有花，您有故事嗎?</h4>
+                    <p>若您有故事，請別吝嗇的與我們分享，我們會蒐<br>集並記下每位顧客的故事，讓每個瞬間成為<br>恆。<br>
+                    別擔心!我們會以匿名的方式，分享在平台上，期<br>待您與我們分享故事。</p>
+                </div>
             </div>
             <img src="./img/top2bgi.svg" alt="" class="top2bgi">
             
@@ -69,53 +72,61 @@
         <!----------------------下面區塊------------------>
         <div class="bottomwra">
             
-            <img src="./img/bottombigimg.svg" alt="" class="bottombigimg">
-            
             <h3>SHARE STORIES / 寫下故事</h3>
-            <div class="form">
-                
-                <div class="bottomformbgi">
-                <h4>請與我們分享您的故事</h4>
-                <ul>
-                    
-                    <li>
-                      <input class="name" type="text" placeholder="輸入姓名"/>
-                    </li>
-                    
-                    <li class="gender">
-                      
-                      <input class="mr" type="radio" name="xx" />
-                      <span>先生</span>
-                      <input class="ms" type="radio" name="xx" />
-                      <span>小姐</span>
-                    </li>
-
-                    <li>
-                      <input class="phone" type="text" placeholder="輸入電話"/>
-                    </li>
-                    
-                    <li>
-                      <input class="email" type="text" placeholder="輸入信箱"/>
-                    </li>
-                    
-                    <!-- 寫故事 -->
-                    <li>
-                      <p>寫下您的故事</p>
-                      <textarea placeholder="輸入文字"></textarea>
-                    </li>
-                    <!-- 送出 -->
-                    <li>
-                      <input class="send" type="submit" value="送出">
-                    </li>
+            <div class="topform">
             
-                </ul>
+                <div class="form">
+                    
+                    <div class="bottomformbgi"></div>
+                        <h4>請與我們分享您的故事</h4>
+                        <ul>
+                            
+                            <li>
+                                姓名 : <input class="name" type="text" placeholder="輸入姓名"/>
+                            </li>
+                            
+                            <li class="gender">
+                                怎麼稱呼您 :
+                            <input class="mr" type="radio" name="xx" />
+                            <span>先生</span>
+                            <input class="ms" type="radio" name="xx" />
+                            <span>小姐</span>
+                            </li>
+                        
+                            <li>
+                               電話 :  <input class="phone" type="text" placeholder="輸入電話"/>
+                            </li>
+                            
+                            <li>
+                               信箱 :  <input class="email" type="email" placeholder="輸入信箱"/>
+                            </li>
+                            
+                            <!-- 寫故事 -->
+                            <li>
+                                <p>寫下您的故事 : </p>
+                                <textarea placeholder="輸入文字"></textarea>
+                            </li>
+                            <!-- 送出 -->
+                            <li>
+                                <input type="button" value="送出" class="send">
+                            </li>
+                            
+                        
+                        </ul>
+                    <div class="bottomformbgiright"></div>
+                    
+                    
                 </div>
+                <img src="./img/bottombigimg.svg" alt="" class="bottombigimg">
+                
                 
             </div>
-            <!-- 聯絡 -->
+                <!-- 聯絡 -->
 
             <h3>CONTACT US / 店家資訊</h3>
-            <div class="contactbgiright"></div>
+            <div class="contactbgiright">
+                
+            </div>
 
             <div class="contact">
 
@@ -129,7 +140,7 @@
                     <p>地址:台北市中山區南京東路三段219號5樓<br>
                     電話:0912-345-678<br>
                     營業時間:AM. 9:00 ~ PM.  5:00</p>
-                    <img src="./img/googlemap.svg" alt="" class="googlemap">
+                    <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115663.1589864839!2d121.54324559999999!3d25.0519283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab90d642cdc1%3A0x1459df8556710135!2z57ev6IKyVGliYU1l5Y-w5YyXSmF2YeWwsealremkiuaIkOePrQ!5e0!3m2!1szh-TW!2stw!4v1688642740549!5m2!1szh-TW!2stw" width="480" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -162,9 +173,6 @@
                 <img src="./img/Line 31.svg" alt="">
 
                 <li><a href="item.html">商品列表</a></li>
-                <img src="./img/Line 31.svg" alt="">
-
-                <li><a href="#">客製服務</a></li>
                 <img src="./img/Line 31.svg" alt="">
 
                 <li><a href="about.html" class="about_a">關於我們</a></li>

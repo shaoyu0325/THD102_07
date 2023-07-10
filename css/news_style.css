@@ -12,7 +12,8 @@ body{
 /*****************************天*********************************/
 
 header ul li a.news_a{
-    text-decoration: underline;
+    border-bottom: 1.6px solid #333;
+    padding-bottom: 2px;
 }
 
 /***************************麵包屑**************************/
@@ -24,7 +25,8 @@ div.nav{
 }
 
 div.nav a.news_a{
-    text-decoration-line: underline;
+    box-shadow: 0 1px;
+    padding-bottom: 2px;
 }
 
 div.nav pre{
@@ -41,7 +43,8 @@ div.nav a{
 }
 
 div.nav a:hover{
-    text-decoration: underline;
+    box-shadow: 0 1px;
+    padding-bottom: 2px;
 }
 /***********************大圖***********************************/
 
@@ -52,20 +55,31 @@ div.newsbig_bgi{
     height: 509px;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 div.newsbig_bgi img.scroll{
     margin-left: -12px;
     margin-top: -20px;
+    
 }
 
-h1.title{
-    margin-top: 100px;
-    margin-left: 400px;
+h1.news_title{
+    font-size: 40px;
+    letter-spacing: 7px;
+    line-height: 1.6;
+    color: #5C3131;
+    font-weight: 700;
+    position: absolute;
+    top: 205px;
+    right: 80px;
 }
 div.newsbig_bgi p.titletext{
-    margin-left: 1050px;
-    margin-top: 30px;
-    /* border: 1px solid #000; */
+    position: absolute;
+    top: 316px;
+    right: 50px;
+    font-family: 'Shadows Into Light Two', cursive;
+    
 }
 
 /*********************內容*********************/
@@ -168,26 +182,28 @@ div.left p.lefttime2{
 
 img.newsleft1{
     position: absolute;
+
     width: 445px;
     height: 256px;
-    left: 632px;
-    top: 785px;
+    left: 445px;
+    top: 0px;
 }
 
 img.newsleft2{
     position: absolute;
+    
     width: 445px;
     height: 256px;
-    left: 632px;
-    top: 1397px;
-    z-index: 100;
+    left: 445px;
+    top: 0px;
+
 }
 div.right{
     width: 890px;
     height: 256px;
     background-color: #FFF6EE;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0 auto; 
     margin-bottom: 50px;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -196,8 +212,8 @@ img.newsright1{
     position: absolute;
     width: 445px;
     height: 256px;
-    left: 186px;
-    top: 1091px;
+    left: 0px;
+    top: 0px;
 
 }
 
@@ -205,8 +221,8 @@ img.newsright2{
     position: absolute;
     width: 445px;
     height: 256px;
-    left: 186px;
-    top: 1703px;
+    left: 0px;
+    top: 0px;
 
 }
 
@@ -258,7 +274,7 @@ img.newsbgi2{
     position: absolute;
     width: 255.92000000000002px;
     height: 224px;
-    left: 1000px;
+    right: 0px;
     top: 1861px;
 
     opacity: .5;
@@ -267,7 +283,7 @@ img.newsbgi2{
 /***************footer******************/
 footer.newsfooter{
     background-color: #ECDFD3;
-    height: 82px;
+    /* height: 82px; */
     display: flex;
     
    
@@ -312,11 +328,13 @@ footer.newsfooter{
     font-size: 14px;
 }
 .footerul li a.news_a{
-    text-decoration: underline;
+    border-bottom: 1.6px solid #333;
+    padding-bottom: 2px;
 }
 
 .footerul li a:hover{
-    text-decoration: underline;
+    border-bottom: 1.6px solid #333;
+    padding-bottom: 2px;
 }
 
 .footericon {

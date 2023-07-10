@@ -46,11 +46,13 @@ header li a {
 }
 
 header li a.index_a{
-    text-decoration-line: underline;
+    border-bottom: 1.6px solid #333;
+    padding-bottom: 2px;
 }
 
 header li a:hover{
-    text-decoration-line: underline
+    border-bottom: 1.6px solid #333;
+    padding-bottom: 2px;
 }
 
 header ul li a.shopping_a:hover{
@@ -72,21 +74,37 @@ header ul i.fas img{
 }
 
 /*************************************大圖區塊*****************************************************/
-h1{
-    font-family: 'Noto Serif TC', serif;
-    font-weight: 700;
+.big_bgi{
+    width: 100%;
+    height: 564px;
+    margin: 0 auto;
 }
 
-p{
+
+.big_bgi h1{
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 700;
+    /* position: absolute; */
+    /* left: 4%;
+    top: 30%; */
+}
+
+.big_bgi p{
     font-family: 'Shadows Into Light Two', cursive;
+    /* position: absolute; */
+    /* top: 65%;
+    left: -20%; */
 }
 
 div.big_bgi{
-    background-image: url("../img/bigimg.svg");
-    /*   */
+    background-image: url("../img/indexbigimg.svg");
+    
     width: 100%;
-    height: 549px;
+    height: 564px;
     overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
     
 }
 
@@ -104,8 +122,8 @@ h1.title pre{
     line-height: 1.6;
     color: #5C3131;
     font-weight: 700;
-    margin: 0 auto;
-    margin-top: 50px;
+   margin-left: 115px;
+    margin-top: 180px;
     /* margin:103px 0 0 314px ; */
     width: 604px;
     height: 128px;
@@ -120,14 +138,17 @@ p.titletext{
     /* border: 1px solid #000; */
     width: 150px;
     height: 35px;
-    margin: 10px 0 0 820px;
+    margin-left: 640px;
+    margin-top: 37px;
+    /* border: 1px solid #000; */
 }
 
 /**********************精選圖片**********************************/
 article.commodity{
+    overflow: hidden;
     background-image: url("../img/commodity_img.jpg");
     
-    height: 1220px;
+    height: 1342px;
     /* border: 1px solid #000; */
     
     
@@ -147,8 +168,17 @@ article.commodity button{
 
 article.commodity button a{
     text-decoration: none;
+    text-align: center;
     color: white;
     letter-spacing: .1em;
+    margin-left: -7px;
+    padding-top: 8px;
+    /* border: 1px solid #000; */
+    display: block;
+    width: 87px;
+    height: 35px;
+    overflow: hidden;
+    
 }
 
 article.commodity h2{
@@ -169,28 +199,50 @@ div.t1{
     background-color: #DABEA7;
     width: 445px;
     height: 428px;
-    margin-left: 195PX;
+   
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
     
 }
-
-div.flower{
-    z-index: 1;
-    display: block;
-    background-image: url("../img/itemback1.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    content: '';
+.commoditywar1 .topflowerleft{
+    background-image: url("../img/Group\ 148\ \(1\).svg");
     position: absolute;
+    width: 413.487px;
+    height: 264.812px;
+    left: -184px;
+    top: 276px;
+    transform: rotate(206deg);
+    filter: none;
     
-    width: 1220px;
-    height: 895px;
-    left: -3px;
-    top: 939px; 
-    pointer-events: none    ;
+
+}
+
+div.topflowerright{
+    background-image: url("../img/Group\ 150.svg");
+    position: absolute;
+    width: 429.758px;
+    height: 383.861px;
+    right: -150px;
+    top: 168px;
+    transform: rotate(1deg);
+    filter: none;
+    
     
 }
 
+div.commoditywar1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+img.commodity_item1{
+    width: 445px;
+    height: 428px;
+    
+    left: 640px;
+    top: 800px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
 
 div.t1 h3{
@@ -210,17 +262,10 @@ div.t1 p{
 
 }
 
-img.commodity_item1{
-    width: 445px;
-    height: 428px;
-    position: absolute;
-    left: 640px;
-    top: 785px;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
-    
-
+div.commoditywar2{
+    display: flex;
+    justify-content: center;
 }
-
 
 
 div.t2{
@@ -228,7 +273,7 @@ div.t2{
     background-color: #DABEA7;
     width: 445px;
     height: 428px;
-    margin-left: 640px;
+    /* margin-left: 640px; */
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -254,11 +299,11 @@ div.t2 button.btn1{
 }
 
 img.commodity_item2{
-    display: flex;
-    position: absolute;
-    
-    left: 196px;
-    top: 1314px;
+    position: relative;
+    width: 445px;
+    height: 428px;
+    left: 0;
+    top: 100px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -328,7 +373,7 @@ article.featured li:hover{
 
 article.bottom{
     background-image: url("../img/bottom.png");
-    height: 1266px;
+    height: 1200px;
     overflow: hidden;
 }
 
@@ -350,6 +395,7 @@ div.advantage{
 .advantage ul{
     display: flex;
     margin-left: 40px;
+    justify-content: center;
     
     
 }
@@ -360,7 +406,7 @@ div.advantage{
 }
 
 .advantage img{
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .advantage li h4{
@@ -391,6 +437,8 @@ div.contact{
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative; 
+     z-index: 2;
 }
 
 .leftlogo{
@@ -417,10 +465,12 @@ div.contact{
 
 }
 
-.righttext .googlemap{
+.righttext iframe{
     margin-left: 70px;
     margin-top: 20px;
+    border-radius: 5px;
 }
+
 img.divline{
     height: 311px;
     margin-top: 20px;
@@ -428,36 +478,31 @@ img.divline{
 }
 div.bottomflower{
     position: absolute;
-   
-    left: 965px;
-    top: 3420px;
-    
+    transform: rotate(90deg);
+    right: -73px;
+    top: 3350px;
+    opacity: .5;
 }
 
 /********************footer*******************/
 div.worring{
     font-size: 12px;
     background-color: #DABEA7;
+    text-align: start;
 }
 footer{
     background-color: #DABEA7;
-    height: 82px;
+    /* height: 82px; */
     display: flex;
+    justify-content: center;
 }
 
 
 
 .footerimg{
-    /* border: 1px solid #000; */
-    margin-left: 70px;
-    display: flex;
-
-    
-    
+    margin-left: 50px;
 }
-.footerimg a{
-    
-}
+.footerimg a{}
 
 .footer .footerimg .footerlogo{
     height: 78px;
@@ -494,18 +539,20 @@ footer{
     font-size: 14px;
 }
 .footerul li .index_a{
-    text-decoration: underline  ;
+    border-bottom: 1.6px solid #333;
+    padding-bottom: 2px;
 }
 
 .footerul li a:hover{
-    text-decoration: underline;
+    border-bottom: 1.6px solid #333;
+    padding-bottom: 2px;
 }
 
 .footericon {
     display: flex;
     align-items: center;
     font-size: 18px;
-    margin-left: 70px;
+    margin-right: 50px;
 }
 
 .footericon i{
@@ -522,24 +569,3 @@ footer{
 }
 
 .footericon .fa-line{}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

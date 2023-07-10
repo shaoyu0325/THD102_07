@@ -14,7 +14,8 @@ body{
 /***********************天****************************/
 
 header ul li a.item_a{
-    text-decoration: underline;
+    border-bottom: 1.6px solid #333;
+    padding-bottom: 2px;
 }
 
 /******************麵包屑*********************/
@@ -29,6 +30,8 @@ div.itembig_bgi{
     height: 509px;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 div.newsbig_bgi img.scroll{
@@ -78,7 +81,8 @@ div.itemwra h2{
 
 .itemwra ul{
     display: flex;
-    margin-left: 80px;
+    
+    justify-content: center;
     
 
 }
@@ -116,7 +120,7 @@ div.itemwra h2{
     
     /* border: 1px solid #000; */
 
-    margin-left: 250px;
+    margin-left: 240px;
     margin-top: 20px;
 
 }
@@ -142,12 +146,20 @@ div.itemwra h2{
 	width: 100px;
 	height: 30px;
 	font-size: 14px;
-	background-color: #8F6645;
-	color: white;
-	border: 0;
+	background-color: #FFF6EE;
+	color: #8F6645;
+	border: 1px solid #8F6645;
     margin: 28px auto;
     margin-left: -50px;
 	/* margin-left: 105px; */
+    cursor: pointer;
+}
+
+.itemwra .buy:active {
+    box-shadow: inset 0 0 10px #302114;
+}
+.itemwra .shopping_cart:active {
+    box-shadow: inset 0 0 10px #a8886e;
 }
 
 .itemwra .buy{
@@ -160,15 +172,16 @@ div.itemwra h2{
 	background-color: #8F6645;
 	color: white;
 	border: 0;
+    cursor: pointer;
 
 	/* margin-left: 105px; */
 }
 
-.itemwra .shopping_cart:hover{
+.shopping_cart:hover{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
-.itemwra .buy:hover{
+.buy:hover{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -201,7 +214,8 @@ div.itemwra h2.itemtitle3{
 }
 
 .footerul li a.item_a{
-    text-decoration: underline;
+    border-bottom: 1.6px solid #333;
+    padding-bottom: 2px;
 }
 
 .footer .footerlogo_a{
