@@ -372,7 +372,7 @@ article.featured .item4{
 
 article.featured li:hover{
     flex-grow: 2;
-    /* filter: blur(0); */
+
 }
 
 /******************特色*****************/
