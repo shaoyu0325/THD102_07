@@ -347,7 +347,7 @@ article.featured li{
     background-position: center center;
 
     transition: .5s;
-   
+    /* filter: blur(2px); */
 }
 
 article.featured .item1{
@@ -372,7 +372,7 @@ article.featured .item4{
 
 article.featured li:hover{
     flex-grow: 2;
-
+    filter: blur(0);
 }
 
 /******************特色*****************/
